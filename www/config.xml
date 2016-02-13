@@ -9,8 +9,6 @@
     </author>
     <gap:plugin name="com.sharinglabs.cordova.plugin.datepicker" />
     <access origin="*" />
-    <plugin name="com.sharinglabs.cordova.plugin.datepicker" source="pgb" spec="n/a" />
-    
     <platform name="android">
       <allow-intent href="market:*" />
     </platform>
