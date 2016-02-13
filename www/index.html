@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="css/normalize.css" type='text/css'>
+<!--    <link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="css/prefix-style.css">
+    <title>My Children</title>
+  </head>
+  <body>
+    <div class="content">
+      <img class="content__avatar" src="images/profile-pic.png">
+      <div class="content__name">
+        <h2>Sally Smith</h2></div>
+
+      <div class="add-child-form">
+        <div class="add-child-form__header">
+          <h3>Tell us about your kids</h3></div>
+        <div class="radio-box">
+          <input type="radio" name="child" id="radio-boy" checked>
+          <label for="radio-boy">
+            Boy</label>
+          <input type="radio" name="child" id="radio-girl">
+          <label for="radio-girl">
+            Girl</label>
+          <input type="radio" name="child" id="radio-pregnant">
+          <label for="radio-pregnant">
+            Pregnant</label>
+        </div>
+        <div class="date-selector">
+          <label class="date-ui" for="birth-date">
+            <img class="date-ui__calendar">
+            <input type="text" id="birth-date" placeholder="Date of birth">
+            <!--<span class="date-ui__caption">Date of birth</span>-->
+            <div class="date-ui__down-arrow"></div>
+          </label>
+        </div>
+      </div>
+
+      <button class="btn btn-blue">Add child</button>
+
+      <button class="btn btn-pink">Next</button>
+    </div>
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
