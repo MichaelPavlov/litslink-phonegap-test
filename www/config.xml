@@ -1,31 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<widget xmlns   = "http://www.w3.org/ns/widgets"
-        xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.litslinktesttask"
-        versionCode = "10" 
-        version     = "1.0.0" >
+  <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.litslinktesttask" versionCode="10" version="1.0.0">
     <name>My Children</name>
     <description>
-        My Children. Litslink test task application.
+      My Children. Litslink test task application.
     </description>
     <author email="mihpavlov@gmail.com" href="emailto:mihpavlov@gmail.com?Subject=We%20so%20your%20phonegap%20app">
-        Michael Pavlov
+      Michael Pavlov
     </author>
-    <content src="index.html"/>
-	<gap:plugin name="com.sharinglabs.cordova.plugin.datepicker" />
-	<plugin name="com.sharinglabs.cordova.plugin.datepicker" source="pgb" spec="n/a" />
-    <access origin="*"/>
-    <allow-intent href="http://*/*"/>
-    <allow-intent href="https://*/*"/>
-    <allow-intent href="tel:*"/>
-    <allow-intent href="sms:*"/>
-    <allow-intent href="mailto:*"/>
-    <allow-intent href="geo:*"/>
+    <gap:plugin name="com.sharinglabs.cordova.plugin.datepicker" />
+    <access origin="*" />
+    <plugin name="com.sharinglabs.cordova.plugin.datepicker" source="pgb" spec="n/a" />
+    
     <platform name="android">
-        <allow-intent href="market:*"/>
+      <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
-        <allow-intent href="itms:*"/>
-        <allow-intent href="itms-apps:*"/>
+      <allow-intent href="itms:*" />
+      <allow-intent href="itms-apps:*" />
     </platform>
-</widget>
+  </widget>
